@@ -1,0 +1,30 @@
+.topic {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #333132;
+  color: #fff;
+  .heading {
+    width: clamp(100px, 50%, 300px);
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+  }
+  .movie {
+    display: flex;
+    margin: clamp(30px, 10vw, 50px) clamp(10px, 15vw, 400px);
+    aspect-ratio: 16 / 9;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .topic {
+    .movie {
+      margin: 10px;
+    }
+  }
+}

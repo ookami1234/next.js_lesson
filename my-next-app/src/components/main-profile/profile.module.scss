@@ -1,0 +1,60 @@
+.profile {
+  background-color: #333132;
+  color: #fff;
+  padding-bottom: 50px;
+  .heading {
+    width: clamp(100px, 50%, 300px);
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+  }
+
+  .members {
+    margin: 50px auto 0 auto;
+    .member {
+      width: 30%;
+      height: 100%;
+      padding: 20px;
+      border-radius: 20px;
+      background-color: #f6f7f8;
+      margin: 0 auto;
+      text-align: center;
+      .cImage {
+        width: 100%;
+        max-height: 750px;
+        height: 100%;
+      }
+      .cName {
+        color: black;
+        font-size: 50px;
+        margin-top: 20px;
+      }
+      .cNameF {
+        color: black;
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .profile {
+    .members {
+      .member {
+        width: 75%;
+        height: 30%;
+        padding: 10px;
+        margin-bottom: 30px;
+        .cImage {
+          width: 80%;
+          max-height: 500px;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

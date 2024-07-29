@@ -1,0 +1,33 @@
+.header {
+  padding: 20px 0;
+  color: #fff;
+
+  .logo a {
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    font-size: clamp(40px, 4vw, 50px);
+  }
+
+  .section {
+    .title {
+      font-size: 20px;
+    }
+    .icons {
+      .icon {
+        margin-right: 10px;
+      }
+      .icon:last-child {
+        margin-right: 0;
+      }
+      .fa-x-twitter {
+        color: #1da1f2;
+      }
+      .fa-youtube {
+        color: #ff0000;
+      }
+    }
+  }
+}
