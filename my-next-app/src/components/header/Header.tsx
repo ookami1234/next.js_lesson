@@ -13,7 +13,7 @@ export function Header() {
         <div className={`${styles.container}`}>
           <div className={`${styles.logo} text-center`}>
             <h1>
-              <a href="/">一家団欒</a>
+              <a href="/">TITLE</a>
             </h1>
           </div>
           {/* <div

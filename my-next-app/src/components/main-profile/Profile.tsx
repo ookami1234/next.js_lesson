@@ -6,40 +6,40 @@ import { Character } from "../types";
 
 const characters: Character[] = [
   {
-    name: "兎",
-    nameF: "（うさぎ）",
-    image: "/image/うさぎ.png",
-    age: "24歳",
-    height: "173cm",
-    weight: "65kg",
-    personality: "謹厳実直",
-    Favorite: "ドラクエ BLEACH",
-    dislike: "a",
-    x: "https://x.com/Mr_PaintRabbit",
+    name: "X",
+    nameF: "（XX）",
+    image: "/image/profileImage.png",
+    age: "XXX",
+    height: "XXX",
+    weight: "XXX",
+    personality: "XXX",
+    Favorite: "XXX",
+    dislike: "X",
+    x: "",
   },
   {
-    name: "大狼",
-    nameF: "（おおかみ）",
-    image: "/image/おおかみ.png",
-    age: "24歳",
-    height: "176cm",
-    weight: "70kg",
-    personality: "傍若無人",
-    Favorite: "お笑い FPS 酒  煙草",
-    dislike: "2Dゲーム",
-    x: "https://x.com/Xx_ookamii_xX",
+    name: "X",
+    nameF: "（XX）",
+    image: "/image/profileImage2.png",
+    age: "XXX",
+    height: "XXX",
+    weight: "XXX",
+    personality: "XXX",
+    Favorite: "XXX",
+    dislike: "X",
+    x: "",
   },
   {
-    name: "熊",
-    nameF: "（くま）",
-    image: "/image/くま.png",
-    age: "24歳",
-    height: "195cm",
-    weight: "90kg",
-    personality: "温厚篤実",
-    Favorite: "2Dアクション",
-    dislike: "FPS",
-    x: "https://x.com/Xx_ookamii_xX",
+    name: "X",
+    nameF: "（XX）",
+    image: "/image/profileImage3.png",
+    age: "XXX",
+    height: "XXX",
+    weight: "XXX",
+    personality: "XXX",
+    Favorite: "XXX",
+    dislike: "X",
+    x: "",
   },
 ];
 
@@ -61,7 +61,7 @@ const Profile: React.FC = () => {
 
   return (
     <div className={styles.profile}>
-      <h2 className={styles.heading}>Members</h2>
+      <h2 className={styles.heading}>HEADING</h2>
       <div className={`${styles.members} row container-fluid`}>
         {characters.map((character) => (
           <div

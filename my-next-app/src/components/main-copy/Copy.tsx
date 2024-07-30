@@ -15,11 +15,7 @@ const Copy: React.FC = () => {
     autoplaySpeed: 6000,
   };
 
-  const images = [
-    "/image/usagi.sp.jpg",
-    "/image/ookami.sp.jpg",
-    "/image/kuma.sp.jpg",
-  ];
+  const images = ["/image/sp.png", "/image/sp2.png", "/image/sp3.png"];
 
   return (
     <div className={styles.group}>

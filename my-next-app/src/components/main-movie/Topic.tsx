@@ -5,7 +5,7 @@ function Topic() {
   return (
     <div>
       <div className={styles.topic}>
-        <h2 className={styles.heading}>Topic</h2>
+        <h2 className={styles.heading}>HEADING</h2>
         <div className={styles.movie}>
           <iframe
             height=" 100%"

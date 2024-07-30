@@ -51,11 +51,11 @@ const CharacterModal: React.FC<CharacterModalProps> = ({
         <div className={`${styles.modalRight} col-12 col-md-6`}>
           <p className={styles.name}>{character.name}</p>
           <p className={styles.nameF}>{character.nameF}</p>
-          <p>年齢: {character.age}</p>
-          <p>身長: {character.height}</p>
-          <p>体重: {character.weight}</p>
-          <p>好きなこと: {character.Favorite}</p>
-          <p>嫌いなこと: {character.dislike}</p>
+          <p>XXX: {character.age}</p>
+          <p>XXX: {character.height}</p>
+          <p>XXX: {character.weight}</p>
+          <p>XXX: {character.Favorite}</p>
+          <p>XXX: {character.dislike}</p>
           <div className={styles.x}>
             <a href={character.x}>x</a>
           </div>
